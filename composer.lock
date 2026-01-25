@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8078c81fbb23f3fc37578b2651f04cc5",
+    "content-hash": "5a7ed1a01be55af03bbf15067dd25645",
     "packages": [
         {
             "name": "brick/math",
@@ -2018,6 +2018,86 @@
                 }
             ],
             "time": "2026-01-15T06:54:53+00:00"
+        },
+        {
+            "name": "meetplume/plume",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/meetplume/plume.git",
+                "reference": "4c0586c352a061695811f357f260e49a5e230ea9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/meetplume/plume/zipball/4c0586c352a061695811f357f260e49a5e230ea9",
+                "reference": "4c0586c352a061695811f357f260e49a5e230ea9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.24.0",
+                "pestphp/pest": "^4.1.0",
+                "pestphp/pest-plugin-type-coverage": "^4.0.2",
+                "phpstan/phpstan": "^2.1.26",
+                "rector/rector": "^2.1.7",
+                "symfony/var-dumper": "^7.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Meetplume\\Plume\\PlumeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Meetplume\\Plume\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patricio",
+                    "email": "ijpatricio@gmail.com"
+                },
+                {
+                    "name": "Charlie Etienne",
+                    "email": "ce@web-nancy.fr"
+                }
+            ],
+            "description": "An utility for markdown content - pages, docs, wikis and more.",
+            "keywords": [
+                "content",
+                "documentation",
+                "laravel",
+                "markdown",
+                "wiki"
+            ],
+            "support": {
+                "issues": "https://github.com/meetplume/plume/issues",
+                "source": "https://github.com/meetplume/plume/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/enunomaduro",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/nunomaduro",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/nunomaduro",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2026-01-25T06:01:40+00:00"
         },
         {
             "name": "monolog/monolog",
