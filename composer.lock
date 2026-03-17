@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44f63f686cc712e702e1f597347a7f5c",
+    "content-hash": "e63c56067dd006ec094d39bc9f1312b4",
     "packages": [
         {
             "name": "brick/math",
@@ -2022,16 +2022,16 @@
         },
         {
             "name": "meetplume/plume",
-            "version": "v0.6.0",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/meetplume/plume.git",
-                "reference": "ca833157c870416a30dad506b3a3f24d4c7d2b94"
+                "reference": "972c1b7f08b46f289717c244926cf8ca9b3208c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meetplume/plume/zipball/ca833157c870416a30dad506b3a3f24d4c7d2b94",
-                "reference": "ca833157c870416a30dad506b3a3f24d4c7d2b94",
+                "url": "https://api.github.com/repos/meetplume/plume/zipball/972c1b7f08b46f289717c244926cf8ca9b3208c3",
+                "reference": "972c1b7f08b46f289717c244926cf8ca9b3208c3",
                 "shasum": ""
             },
             "require": {
@@ -2087,9 +2087,9 @@
             ],
             "support": {
                 "issues": "https://github.com/meetplume/plume/issues",
-                "source": "https://github.com/meetplume/plume/tree/v0.6.0"
+                "source": "https://github.com/meetplume/plume/tree/v0.7.0"
             },
-            "time": "2026-03-17T11:02:57+00:00"
+            "time": "2026-03-17T11:11:39+00:00"
         },
         {
             "name": "monolog/monolog",

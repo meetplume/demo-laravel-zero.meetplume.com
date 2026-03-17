@@ -2,7 +2,8 @@
 
 namespace App\Providers;
 
-use App\Plume\LaravelZeroDocsVault;
+use App\Plume\Docs;
+use App\Plume\Pages;
 use Illuminate\Support\ServiceProvider;
 use Meetplume\Plume\Facades\Plume;
 
@@ -23,7 +24,8 @@ class AppServiceProvider extends ServiceProvider
     {
         Plume::configure()
             ->vaults([
-                LaravelZeroDocsVault::class,
+                Pages::class,
+                Docs::class,
             ]);
     }
 }
